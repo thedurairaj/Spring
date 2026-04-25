@@ -7,8 +7,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Car {
 
-    public Car() {
-        System.out.println("1. Constructor (Instantiation)");
+    private final Engine engine;
+    public Car(Engine engine) {
+        this.engine = engine;
+        System.out.println("2. Engine injected into Car");
     }
 
     @PostConstruct
