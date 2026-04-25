@@ -1,4 +1,4 @@
-package com.rd.spring.lesson8_beanLifeCycle;
+package com.rd.spring.lesson8_beanLifeCycle.Annotations;
 
 import org.springframework.context.annotation.ComponentScan;
 

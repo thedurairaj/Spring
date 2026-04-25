@@ -1,4 +1,4 @@
-package com.rd.spring.lesson8_beanLifeCycle;
+package com.rd.spring.lesson8_beanLifeCycle.Annotations;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
